@@ -1,0 +1,129 @@
+/*body{
+	background:red;
+}*/
+/*css样式初始化*/
+
+
+/*清除浏览器默认样式*/
+body,div,input,button,{
+	margin:0;
+	padding:0;
+}
+
+button{
+	border-radius:0;
+}
+input,button{
+	border-radius:0
+}
+
+
+
+img{
+	display:block;
+}
+
+
+a{
+	color:#333;
+	text-decoration:none;
+}
+
+.auto{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.tc{
+	text-align: center;
+}
+
+.plr10{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+/*主页样式*/
+.logo{
+	width:270px;
+	height:129px;
+	margin:30px auto 25px auto;     上右下左,复合属性
+	
+	
+	/*分开写*/
+	/*margin-top:30px;
+	margin-right:25px;
+	margin-bottom:auto;
+	margin-left:auto;*/
+}
+
+.search-box{
+	width:640px;
+	height:36px;
+	background:red;
+}
+
+.search{
+	float:left;
+	width:527px;
+	height:22px;
+	padding:6px;
+	
+	border:1px solid #EEE8AA;
+	border-right:0;
+	line-height:22px;
+	background:palegoldenrod;
+}
+
+.search:focus{
+	border-color:#4B94FB;
+}
+
+
+
+.search-btn{
+	width:100px;
+	height:36px;
+	background:palegreen;
+	水平居中
+	text-align: center;
+	垂直居中
+	line-height:36px;
+	/*字体大小*/
+	font-size:16px;
+	color:#fff;
+	background:#4b94fb;
+	手指光标
+	cursor:pointer;
+}
+    
+.qrcode{
+	width:60px;
+	height:60px;
+	margin-top:170px;
+}
+
+.qr-title{
+	line-height:30px;
+	font-size:12px;
+	color:#666;
+	
+}
+
+.test{
+	width:300px;
+	height:300px;
+	background:yellow;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
+
+块元素 div p h1-h6 ul li ol dl 占一行,可加宽高
+行内元素 span i em strong  不占一行,不能加宽高
+行内块元素 img input 不占一行,可加宽高
